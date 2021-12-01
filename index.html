@@ -24,53 +24,34 @@
 
     <style>
       body {
-
         background-image: url("1.jpg");
         /* <img src="background.jpg" class="img-fluid" alt="background.jpg;">; */
         /* <img src="background.jpg" alt="Paris" class="center"> */
-      
 
+        background-position: center center;
 
+        /* Make image fixed */
+        background-attachment: fixed;
 
-      background-position: center center;
-  
-  /* Make image fixed */
-  background-attachment: fixed;
+        /* Not repeat images */
+        background-repeat: no-repeat;
 
-  /* Not repeat images */
-  background-repeat: no-repeat;
+        /* Set background size auto */
+        background-size: auto;
+      }
 
-  /* Set background size auto */
-  background-size: auto;
-}
-
-/* Media query for mobile devices  */
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url(
-"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210324142236/gfg_complete_logo_2x-min1.png");
-  }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
+      /* Media query for mobile devices  */
+      @media only screen and (max-width: 767px) {
+        body {
+          background-image: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210324142236/gfg_complete_logo_2x-min1.png");
+        }
+      }
 
       h1 {
         color: maroon;
         margin-left: 40px;
       }
     </style>
-    <h1>Hello, world! im dhiraj</h1>
     <!-- <button type="button" class="btn btn-primary position-relative"> -->
 
     <a
@@ -106,5 +87,10 @@
       role="button"
       >Stack overflow</a
     >
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+    </svg>
+
+
   </body>
 </html>
